@@ -1,0 +1,10 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="418" height="118" rx="16" fill="#0D1117" stroke="#30363D"/>
+  <g transform="translate(24,28)">
+    <circle cx="32" cy="24" r="20" stroke="#58A6FF" stroke-width="3"/>
+    <circle cx="32" cy="24" r="5" fill="#58A6FF"/>
+  </g>
+  <text x="100" y="44" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1">OPEN PRs</text>
+  <text x="100" y="72" fill="#58A6FF" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">6</text>
+  <text x="100" y="94" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Under active review</text>
+</svg>

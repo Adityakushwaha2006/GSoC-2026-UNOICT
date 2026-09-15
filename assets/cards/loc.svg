@@ -1,0 +1,11 @@
+<svg width="420" height="120" viewBox="0 0 420 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect x="1" y="1" width="418" height="118" rx="16" fill="#0D1117" stroke="#30363D"/>
+  <g transform="translate(24,28)" stroke="#3FB950" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M20 10L8 24L20 38"/>
+    <path d="M44 10L56 24L44 38"/>
+    <path d="M35 6L29 42"/>
+  </g>
+  <text x="100" y="44" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="13" font-weight="700" letter-spacing="1">LINES OF CODE</text>
+  <text x="100" y="72" fill="#3FB950" font-family="Segoe UI, Arial, sans-serif" font-size="28" font-weight="700">18,420</text>
+  <text x="100" y="94" fill="#8B949E" font-family="Segoe UI, Arial, sans-serif" font-size="12">Net code added</text>
+</svg>
