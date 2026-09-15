@@ -47,27 +47,23 @@ Mentored by : [Marcelo Lafleur](https://github.com/marcelolafleur) and  [Alfonso
   </tr>
 </table>
 
-
-
-## All pull requests
-
-| # | Title |
+|  | Title |
 |---|---|
-| <img width="20" height="20" alt="merged" src="/png-transparent-circle-icon-merge-icon-design-git-symbol-text-line-area.png" /> | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) | | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) |
-| 2 | [Widen the allowed Python versions in setup.bat](https://github.com/EAPD-DRB/MUIOGO/pull/265) |
-| 3 | [Widen the allowed Python versions for macOS and Linux](https://github.com/EAPD-DRB/MUIOGO/pull/266) | 
-| 4 | [OG-Core install and registry layer](https://github.com/EAPD-DRB/MUIOGO/pull/487) | 
-| 5 | [Standalone OG-Core run pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/498) |
-| 6 | [Move OG-Core storage so it stops showing up as an energy case](https://github.com/EAPD-DRB/MUIOGO/pull/502) |
-| 7 | [Track install jobs in the registry and harden the install lifecycle](https://github.com/EAPD-DRB/MUIOGO/pull/503) |
-| 8 | [The coupling engine, forward pass](https://github.com/EAPD-DRB/MUIOGO/pull/537) | 
-| 9 | [The coupling engine, reverse pass](https://github.com/EAPD-DRB/MUIOGO/pull/539) | 
+| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /> | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) |(https://github.com/EAPD-DRB/MUIOGO/pull/204) | | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) |
+| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Widen the allowed Python versions in setup.bat](https://github.com/EAPD-DRB/MUIOGO/pull/265) |
+| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Widen the allowed Python versions for macOS and Linux](https://github.com/EAPD-DRB/MUIOGO/pull/266) | 
+| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [OG-Core install and registry layer](https://github.com/EAPD-DRB/MUIOGO/pull/487) | 
+| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Standalone OG-Core run pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/498) |
+| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Move OG-Core storage so it stops showing up as an energy case](https://github.com/EAPD-DRB/MUIOGO/pull/502) |
+| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Track install jobs in the registry and harden the install lifecycle](https://github.com/EAPD-DRB/MUIOGO/pull/503) |
+| <img src="https://cdn.simpleicons.org/git/1a7f37" width="16" height="16" alt="Open" /> | [The coupling engine, forward pass](https://github.com/EAPD-DRB/MUIOGO/pull/537) | 
+| <img src="https://cdn.simpleicons.org/git/1a7f37" width="16" height="16" alt="Open" /> | [The coupling engine, reverse pass](https://github.com/EAPD-DRB/MUIOGO/pull/539) | 
 
 
 
 ### 1. Add a pytest suite and a GitHub Actions pipeline
 
-[PR #204](https://github.com/EAPD-DRB/MUIOGO/pull/204) &middot; ✅ Merged &middot; 410 lines added across 9 files
+[PR #204](https://github.com/EAPD-DRB/MUIOGO/pull/204) &middot; Merged &middot; 410 lines added across 9 files
 
 The repository had no tests. Not a small number of tests, none, and no automated check on pull requests beyond a security scan. Everything merged so far had been merged on review alone.
 
@@ -77,7 +73,7 @@ Two details worth recording. Tests use `DELETE` rather than `GET` to check for w
 
 ### 2. Widen the allowed Python versions in setup.bat
 
-[PR #265](https://github.com/EAPD-DRB/MUIOGO/pull/265) &middot; ✅ Merged &middot; 27 lines added
+[PR #265](https://github.com/EAPD-DRB/MUIOGO/pull/265) &middot; Merged &middot; 27 lines added
 
 The project said it supported Python 3.10 through 3.12. The Windows setup script looked for 3.11 and quit if it did not find it. A new contributor on 3.12 hit a dead end before the real setup code ever ran, which is an unpleasant first five minutes with any project.
 
@@ -85,13 +81,13 @@ The script now looks for 3.12, 3.11 and 3.10 in that order, trying versioned exe
 
 ### 3. Widen the allowed Python versions for macOS and Linux
 
-[PR #266](https://github.com/EAPD-DRB/MUIOGO/pull/266) &middot; ✅ Merged &middot; 18 lines changed
+[PR #266](https://github.com/EAPD-DRB/MUIOGO/pull/266) &middot; Merged &middot; 18 lines changed
 
 The same bug lived in `setup.sh`, which hardcoded `python3.11`. Same fix, same probe order, so the two setup paths behave identically. Worth doing as its own pull request rather than folding it into the last one, since the Windows fix was already tested and this one could not be tested on the same machine.
 
 ### 4. OG-Core install and registry layer
 
-[PR #487](https://github.com/EAPD-DRB/MUIOGO/pull/487) &middot; ✅ Merged &middot; 1,539 lines added across 9 files
+[PR #487](https://github.com/EAPD-DRB/MUIOGO/pull/487) &middot; Merged &middot; 1,539 lines added across 9 files
 
 This is where the real project starts. Before anyone can run an economic model for a country, that country's calibration has to be downloaded and given a working environment. This adds the backend that does it and keeps track of what is on the machine.
 
@@ -125,7 +121,7 @@ Verified end to end on Windows with a real install: the job polled through to co
 
 ### 5. Standalone OG-Core run pipeline
 
-[PR #498](https://github.com/EAPD-DRB/MUIOGO/pull/498) &middot; ✅ Merged &middot; 6,671 lines added across 24 files, 24 commits
+[PR #498](https://github.com/EAPD-DRB/MUIOGO/pull/498) &middot; Merged &middot; 6,671 lines added across 24 files, 24 commits
 
 The largest piece of the summer, and the one that took longest to get right. This is the layer that actually runs an installed country model and serves its results back, with 30 endpoints covering cases, runs, parameters, execution, results, analysis tables, tax uploads, the parameter form, and case backup and restore.
 
@@ -154,7 +150,7 @@ This replaced an earlier attempt that ran the model in the same process as MUIOG
 
 ### 6. Move OG-Core storage so it stops showing up as an energy case
 
-[PR #502](https://github.com/EAPD-DRB/MUIOGO/pull/502) &middot; ✅ Merged &middot; 10 lines changed
+[PR #502](https://github.com/EAPD-DRB/MUIOGO/pull/502) &middot; Merged &middot; 10 lines changed
 
 A small fix for a confusing bug. Once any economic model page had been opened, a folder called OGCore appeared in the energy model case picker as though it were a country model someone had made.
 
@@ -164,7 +160,7 @@ Filtering the name out of the case list would have been the smaller diff, but th
 
 ### 7. Track install jobs in the registry and harden the install lifecycle
 
-[PR #503](https://github.com/EAPD-DRB/MUIOGO/pull/503) &middot; ✅ Merged &middot; 970 lines added across 11 files
+[PR #503](https://github.com/EAPD-DRB/MUIOGO/pull/503) &middot; Merged &middot; 970 lines added across 11 files
 
 Real use of the install layer turned up three gaps, and this closes all three.
 
@@ -176,7 +172,7 @@ Last, anything left mid flight when the server stopped is now reconciled on the 
 
 ### 8. The coupling engine, forward pass
 
-[PR #537](https://github.com/EAPD-DRB/MUIOGO/pull/537) &middot; 🟢 Open &middot; 6,832 lines added across 40 files
+[PR #537](https://github.com/EAPD-DRB/MUIOGO/pull/537) &middot; Open &middot; 6,832 lines added across 40 files
 
 This is the part the rest of the summer was building toward. It adds `oglink`, a self contained installable package that carries a solved energy scenario into the economic model. This pull request is the forward direction: energy prices in, macroeconomic results out.
 
@@ -217,7 +213,7 @@ Seventeen unit tests cover the price reconstruction against a closed form case, 
 
 ### 9. The coupling engine, reverse pass
 
-[PR #539](https://github.com/EAPD-DRB/MUIOGO/pull/539) &middot; 🟢 Open &middot; 7,516 lines added across 45 files
+[PR #539](https://github.com/EAPD-DRB/MUIOGO/pull/539) &middot; Open &middot; 7,516 lines added across 45 files
 
 The other half of a coupling pass. The forward pass sends an energy price into the economy. This sends the economy's response back into the energy model and re solves it.
 
