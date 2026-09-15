@@ -53,7 +53,7 @@ Mentored by : [Marcelo Lafleur](https://github.com/marcelolafleur) and  [Alfonso
 
 | # | Title |
 |---|---|
-| 1 | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) |
+| <img width="20" height="20" alt="merged" src="/png-transparent-circle-icon-merge-icon-design-git-symbol-text-line-area.png" /> | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) | | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) |
 | 2 | [Widen the allowed Python versions in setup.bat](https://github.com/EAPD-DRB/MUIOGO/pull/265) |
 | 3 | [Widen the allowed Python versions for macOS and Linux](https://github.com/EAPD-DRB/MUIOGO/pull/266) | 
 | 4 | [OG-Core install and registry layer](https://github.com/EAPD-DRB/MUIOGO/pull/487) | 
