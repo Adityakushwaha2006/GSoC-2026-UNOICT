@@ -29,35 +29,81 @@ This is the first working link between these two models, and it is the piece tha
 
 Mentored by : [Marcelo Lafleur](https://github.com/marcelolafleur) and  [Alfonso](https://https://github.com/autibet) 
 
-
-<table width="100%">
-  <tr>
-    <td width="25%" align="center" valign="top">
-      <img src="./assets/cards/merged-prs.svg" alt="Merged Pull Requests" width="100%" />
+<table align="center" width="100%">
+  <tr align="center">
+    <td width="25%">
+      <a href="https://github.com/EAPD-DRB/MUIOGO/pulls?q=is%3Apr+is%3Amerged+author%3AAdityakushwaha2006">
+        <img src="https://img.shields.io/badge/Merged_PRs-7-8957e5?style=for-the-badge&logo=git&logoColor=white" alt="Merged PRs" />
+      </a>
+      <br />
+      <sub><b>Accepted code</b></sub>
     </td>
-    <td width="25%" align="center" valign="top">
-      <img src="./assets/cards/open-prs.svg" alt="Open Pull Requests" width="100%" />
+    <td width="25%">
+      <a href="https://github.com/EAPD-DRB/MUIOGO/pulls?q=is%3Apr+is%3Aopen+author%3AAdityakushwaha2006">
+        <img src="https://img.shields.io/badge/Open_PRs-2-2ea043?style=for-the-badge&logo=git&logoColor=white" alt="Open PRs" />
+      </a>
+      <br />
+      <sub><b>Coupling engine</b></sub>
     </td>
-    <td width="25%" align="center" valign="top">
-      <img src="./assets/cards/loc.svg" alt="Lines of Code" width="100%" />
+    <td width="25%">
+      <img src="https://img.shields.io/badge/Lines_of_Code-23%2C993-388bfd?style=for-the-badge&logo=codeforces&logoColor=white" alt="Lines of Code" />
+      <br />
+      <sub><b>Open + Merged</b></sub>
     </td>
-    <td width="25%" align="center" valign="top">
-      <img src="./assets/cards/timeline.svg" alt="Timeline" width="100%" />
+    <td width="25%">
+      <img src="https://img.shields.io/badge/Timeline-16_Weeks-d29922?style=for-the-badge&logo=clockify&logoColor=white" alt="Timeline" />
+      <br />
+      <sub><b>Extended duration</b></sub>
     </td>
   </tr>
 </table>
 
-|  | Title |
-|---|---|
-| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /> | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) |(https://github.com/EAPD-DRB/MUIOGO/pull/204) | | [Add a pytest suite and a GitHub Actions pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/204) |
-| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Widen the allowed Python versions in setup.bat](https://github.com/EAPD-DRB/MUIOGO/pull/265) |
-| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Widen the allowed Python versions for macOS and Linux](https://github.com/EAPD-DRB/MUIOGO/pull/266) | 
-| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [OG-Core install and registry layer](https://github.com/EAPD-DRB/MUIOGO/pull/487) | 
-| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Standalone OG-Core run pipeline](https://github.com/EAPD-DRB/MUIOGO/pull/498) |
-| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Move OG-Core storage so it stops showing up as an energy case](https://github.com/EAPD-DRB/MUIOGO/pull/502) |
-| <img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" />  | [Track install jobs in the registry and harden the install lifecycle](https://github.com/EAPD-DRB/MUIOGO/pull/503) |
-| <img src="https://cdn.simpleicons.org/git/1a7f37" width="16" height="16" alt="Open" /> | [The coupling engine, forward pass](https://github.com/EAPD-DRB/MUIOGO/pull/537) | 
-| <img src="https://cdn.simpleicons.org/git/1a7f37" width="16" height="16" alt="Open" /> | [The coupling engine, reverse pass](https://github.com/EAPD-DRB/MUIOGO/pull/539) | 
+<table width="100%" align="center">
+  <thead>
+    <tr>
+      <th align="center">Status</th>
+      <th align="left">Title</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /></td>
+      <td><a href="https://github.com/EAPD-DRB/MUIOGO/pull/204">Add a pytest suite and a GitHub Actions pipeline</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /></td>
+      <td><a href="https://github.com/Adityakushwaha2006/GSoC-2026-UNOICT9">Widen the allowed Python versions in setup.bat</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /></td>
+      <td><a href="url?id=40">Widen the allowed Python versions for macOS and Linux</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /></td>
+      <td><a href="https://github.com/EAPD-DRB/MUIOGO/pull/487">OG-Core install and registry layer</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /></td>
+      <td><a href="https://github.com/EAPD-DRB/MUIOGO/pull/498">Standalone OG-Core run pipeline</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /></td>
+      <td><a href="https://github.com/EAPD-DRB/MUIOGO/pull/502">Move OG-Core storage so it stops showing up as an energy case</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/8957e5" width="16" height="16" alt="Merged" /></td>
+      <td><a href="https://github.com/EAPD-DRB/MUIOGO/pull/503">Track install jobs in the registry and harden the install lifecycle</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/1a7f37" width="16" height="16" alt="Open" /></td>
+      <td><a href="https://github.com/EAPD-DRB/MUIOGO/pull/537">The coupling engine, forward pass</a></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="https://cdn.simpleicons.org/git/1a7f37" width="16" height="16" alt="Open" /></td>
+      <td><a href="https://github.com/EAPD-DRB/MUIOGO/pull/539">The coupling engine, reverse pass</a></td>
+    </tr>
+  </tbody>
+</table>
 
 
 
