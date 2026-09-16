@@ -257,19 +257,15 @@ One thing is deliberately left out. The economy's equilibrium interest rate is a
 
 ---
 
-## What is left
+## What Is Currently Left as Future Work :
 
 The forward and reverse passes each do one direction of one pass. The convergence loop, which repeats the exchange until both models agree on a single answer, is the next stage and builds directly on what is here. The deferred interest rate channel belongs to that stage too.
 
 ---
 
-## Thanks
-
-Thanks to my mentors for the reviews, for the design conversations that changed the shape of this work more than once, and for pushing back on the version of the architecture that would not have held up. Thanks to UN DESA and UN OICT for taking on a contributor and letting the work reach real users, and to Google Summer of Code for the time and space to do it properly.
-
----
 
 <p align="center">
+  <a href="https://www.linkedin.com/in/adityaksh/">LinkedIn</a> &middot;
   <a href="https://github.com/Adityakushwaha2006">GitHub</a> &middot;
   <a href="https://summerofcode.withgoogle.com/programs/2026/projects/l8UO1g4u">GSoC 2026 project</a> &middot;
   <a href="https://github.com/EAPD-DRB/MUIOGO/">MUIOGO</a>
